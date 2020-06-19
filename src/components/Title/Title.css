@@ -1,0 +1,13 @@
+.title h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    -webkit-text-stroke: 1px #282727;
+}
+
+.title p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px #282727;
+}
