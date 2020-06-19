@@ -1,0 +1,153 @@
+.navbar {
+    background: #151515;
+    border-bottom: 1px solid #a43029;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    font-size: calc(10px + 14 * (100vw - 320px)/800);
+    z-index: 99;
+    white-space: nowrap;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 33.3%;
+    text-align: center
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900
+  }
+  
+  .score {
+    margin: 0 2.5%;
+  }
+  
+  .scoreSplit {
+    color: #a43029;
+  }
+  
+  .navbar .correct {
+      color: #2e7d32;
+    -webkit-animation: 1s correct;
+    animation: 1s correct
+  }
+  
+  .navbar .incorrect {
+      color: #c62828;
+    -webkit-animation: 1s incorrect;
+    animation: 1s incorrect
+  }
+  
+  @-webkit-keyframes correct {
+    0% {
+        color: #fff
+    }
+  
+    20% {
+        color: #2e7d32
+    }
+  
+    40% {
+        color: #fff
+    }
+  
+    60% {
+        font-weight: #2e7d32
+    }
+  
+    80% {
+        font-weight: #fff
+    }
+  
+    to {
+        font-weight: #2e7d32
+    }
+  }
+  
+  @keyframes correct {
+    0% {
+        color: #fff
+    }
+  
+    20% {
+        color: #2e7d32
+    }
+  
+    40% {
+        color: #fff
+    }
+  
+    60% {
+        font-weight: #2e7d32
+    }
+  
+    80% {
+        font-weight: #fff
+    }
+  
+    to {
+        font-weight: #2e7d32
+    }
+  }
+  
+  @-webkit-keyframes incorrect {
+    0% {
+        color: #fff
+    }
+  
+    20% {
+        color: #c62828
+    }
+  
+    40% {
+        color: #fff
+    }
+  
+    60% {
+        font-weight: #c62828
+    }
+  
+    80% {
+        font-weight: #fff
+    }
+  
+    to {
+        font-weight: #c62828
+    }
+  }
+  
+  @keyframes incorrect {
+    0% {
+        color: #fff
+    }
+  
+    20% {
+        color: #c62828
+    }
+  
+    40% {
+        color: #fff
+    }
+  
+    60% {
+        font-weight: #c62828
+    }
+  
+    80% {
+        font-weight: #fff
+    }
+  
+    to {
+        font-weight: #c62828
+    }
+  }
