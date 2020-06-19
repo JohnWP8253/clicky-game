@@ -1,0 +1,75 @@
+// array to hold stormtrooper helmet images
+[
+    {
+        "id": 1,
+        "name": "Clone Trooper Phase 1",
+        "image": "./images/Clone-Trooper-Phase-1.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Clone Trooper Phase 2",
+        "image": "./images/Clone-Trooper-Phase-2.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "First Order Flametrooper",
+        "image": "./images/First Order Flametrooper.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "First Order Snowtrooper",
+        "image": "./images/First Order Snowtrooper.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "First Order Stormtrooper",
+        "image": "./images/First Order Stormtrooper.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Imperial Army Pilot",
+        "image": "./images/Imperial-Army-Pilot.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Imperial Snowtrooper",
+        "image": "./images/Imperial-Snowtrooper.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Imperial Stormtrooper",
+        "image": "./images/Imperial-Stormtrooper.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Imperial TIE Pilot",
+        "image": "./images/Imperial-TIE-Pilot.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Ralph McQuarrie Trooper",
+        "image": "./images/Ralph-McQuarrie-Trooper.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Scout Trooper",
+        "image": "./images/Scout-Trooper.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Star Wars Rebels Stormtrooper",
+        "image": "./images/Star-Wars-Rebels-Stormtrooper.png",
+        "clicked": false
+    }
+]
