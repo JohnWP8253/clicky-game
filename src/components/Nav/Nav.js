@@ -24,7 +24,7 @@ const Nav = props => {
                 <li> 
                     <span className="score"> Score: {props.score}</span> 
                     <span className="SplitScore">|</span>
-                    <span className="score">Top Score: {props.hiscore}</span>
+                    <span className="score">Top Score: {props.hiScore}</span>
                 </li>
             </ul>
         </nav>
