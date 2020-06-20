@@ -4,7 +4,8 @@ import Nav from "./components/Nav";
 import Title from "./components/Title";
 import Wrapper from "./components/Wrapper";
 import stormtroopers from "./stormtroopers.json";
-import './App.css';
+import "./App.css";
+
 
 class App extends Component {
   // Setting this.state.stormtrooper to the stormtrooper json array
@@ -72,7 +73,7 @@ class App extends Component {
           />
         ))}
       </Wrapper>
-    )
+    );
   }
 }
 

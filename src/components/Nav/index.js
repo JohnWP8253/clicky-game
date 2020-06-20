@@ -1,1 +1,1 @@
-export {defafult} from "./Nav"
+export {default} from "./Nav"
