@@ -14,7 +14,7 @@
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  -webkit-box-shadow: 0 14px 28px rgba(164,48,41,.25),0 10px 10px rgba(164,48,41,.22);
+  -webkit-box-shadow: 0 14px 28px rgba(172, 50, 44, 0.25),0 10px 10px rgba(164,48,41,.22);
   box-shadow: 0 14px 28px rgba(164,48,41,.25),0 10px 10px rgba(164,48,41,.22);
   -webkit-transition: .1s;
   -o-transition: .1s;
@@ -22,12 +22,12 @@
 }
 
 .card > .img-container {
-  border-radius: 5px;
+  border-radius: 10px;
   height: 100%;
   overflow: hidden;
   text-align: center;
   background: linear-gradient(#151515, #282727);
-  border: #a43029 1px solid;
+  border: #a43029 1.5px solid;
 }
 
 .card > .img-container > img {
