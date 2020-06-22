@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import ImperialCard from "./components/ImperialCard";
 import Nav from "./components/Nav";
 import Title from "./components/Title";
@@ -16,7 +16,7 @@ class App extends Component {
     hiScore: 0,
     message: "Click a helmet to begin!"
   };
-
+  // function to handle the shuffling of the cards
   handleShuffleArray = (arr) => {
     for (let i = arr.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
@@ -24,52 +24,56 @@ class App extends Component {
     }
     return arr;
   }
-
-  handleClick = id => {
+  // function to handle the click event if statements in ES6
+  handleClick = (id) => {
     if (this.state.clicked.indexOf(id) === -1) {
-      this.setState(
-        {
+      this.setState({
         stormtroopers: stormtroopers,
         clicked: this.state.clicked.concat(id),
         score: this.state.score + 1,
-        hiScore: (this.state.hiScore > this.state.score) ? this.state.hiScore : this.state.hiScore + 1,
-        message: "The Force is strong with you!"
-        }
-      );
+        hiScore:
+          this.state.hiScore > this.state.score
+            ? this.state.hiScore
+            : this.state.hiScore + 1,
+        message: "The Force is strong with you!",
+      });
     } else {
-      this.setState(
-        {
-          stormtroopers: stormtroopers,
-          clicked: [],
-          score: 0,
-          topScore: (this.state.score > this.state.hiScore) ? this.state.score : this.state.hiScore,
-          message: "There is a disturbance in the Force!"
-        }
-      );
+      this.setState({
+        stormtroopers: stormtroopers,
+        clicked: [],
+        score: 0,
+        topScore:
+          this.state.score > this.state.hiScore
+            ? this.state.score
+            : this.state.hiScore,
+        message: "There is a disturbance in the Force!",
+      });
     }
     this.handleShuffleArray(stormtroopers);
-  }
-
+  };
+  
   render() {
     return (
       <Wrapper>
         <Nav
-        brand="Clicky Game"
-        message={this.state.message}
-        score={this.state.score}
-        hiScore={this.state.hiScore}
+          brand="Clicky Game"
+          message={this.state.message}
+          score={this.state.score}
+          hiScore={this.state.hiScore}
         />
 
-        <Title subtitle="Click on a helmet to earn points, but don't click on any more than once!">Clicky Game: The Stormtrooper Edition</Title>
-        {this.state.stormtroopers.map(stormtroopers => (
+        <Title subtitle="Click on a helmet to earn points, but don't click on any more than once!">
+          Clicky Game: The Stormtrooper Edition
+        </Title>
+        {this.state.stormtroopers.map((stormtroopers) => (
           <ImperialCard
-          handleClick={this.handleClick}
-          id={stormtroopers.id}
-          key={stormtroopers.id}
-          name={stormtroopers.name}
-          message={this.state.message}
-          image={stormtroopers.image}
-          score={this.state.score}
+            handleClick={this.handleClick}
+            id={stormtroopers.id}
+            key={stormtroopers.id}
+            name={stormtroopers.name}
+            message={this.state.message}
+            image={stormtroopers.image}
+            score={this.state.score}
           />
         ))}
       </Wrapper>
