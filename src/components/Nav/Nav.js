@@ -4,10 +4,10 @@ import "./Nav.css";
 const Nav = props => {
 
     const messageClass = () => {
-        if (props.message === "The Force is stong with you!") {
+        if (props.message === "The Force is strong with you!") {
             return "correct";
         } else if (
-            props.message === "There is a disturbance in the force!") {
+            props.message === "You died!") {
                 return "incorrect";
             }
     }
@@ -23,7 +23,7 @@ const Nav = props => {
                 </li>
                 <li> 
                     <span className="score"> Score: {props.score}</span> 
-                    <span className="SplitScore">|</span>
+                    <span className="splitScore">|</span>
                     <span className="score">Top Score: {props.hiScore}</span>
                 </li>
             </ul>
