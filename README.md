@@ -12,7 +12,7 @@ This is a memory game built with React. The UI is broken up into components, com
 * Bootstrap 4
 
 ## Demo GIF
-
+<img src="https://github.com/JohnWP8253/clicky-game/blob/master/public/images/clicky_game.gif">
 
 
 ## Links
