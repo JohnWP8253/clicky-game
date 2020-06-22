@@ -11,7 +11,8 @@ This is a memory game built with React. The UI is broken up into components, com
 * React
 * Bootstrap 4
 
-## Video Demo
+## Demo GIF
+
 
 
 ## Links
