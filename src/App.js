@@ -14,7 +14,7 @@ class App extends Component {
     clicked: [],
     score: 0,
     hiScore: 0,
-    message: "Click a helmet to begin and may the Force be with you"
+    message: "Click a helmet to begin!"
   };
 
   handleShuffleArray = (arr) => {
@@ -77,4 +77,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App();

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImperialCard.css";
 
-const ImperialCard = (props) => (
+const ImperialCard = props => (
   <div className="card" onClick={() => props.handleClick(props.id)}>
     <div className="img-container">
       <img

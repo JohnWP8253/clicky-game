@@ -1,80 +1,75 @@
+ 
 .card {
-  background: #ffffff;
+  background: #fff;
   border-radius: 5px;
   height: 175px;
   margin: 1rem;
   position: relative;
   width: 175px;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
-    0 3px 6px rgba(0, 0, 0, 0.23);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
 }
 
-.card:hover {
+.card:hover{
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  -webkit-box-shadow: 0 14px 28px rgba(164, 48, 41, 0.25),
-    0 10px 10px rgba(164, 48, 41, 0.22);
-  box-shadow: 0 14px 28px rgba(164, 48, 41, 0.25),
-    0 10px 10px rgba(164, 48, 41, 0.22);
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-box-shadow: 0 14px 28px rgba(164,48,41,.25),0 10px 10px rgba(164,48,41,.22);
+  box-shadow: 0 14px 28px rgba(164,48,41,.25),0 10px 10px rgba(164,48,41,.22);
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s
 }
 
-.card > .image-container > img {
+.card > .img-container {
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(#151515, #282727);
+  border: #a43029 1px solid;
+}
+
+.card > .img-container > img {
   margin-top: 5%;
-  width: 83%;
+  width: 83%
 }
 
 .shake {
-  -webkit-animation: shake 0.5s 0.0125s;
-  animation: shake 0.5s 0.0125s;
+  -webkit-animation: shake .5s .0125s;
+  animation: shake .5s .0125s
 }
 
 @-webkit-keyframes shake {
-  0%,
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+  0%,to {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0)
   }
 
-  12.5%,
-  37.5%,
-  62.5%,
-  87.5% {
-    -webkit-transform: translate(-10px);
-    transform: translate(-10px);
+  12.5%,37.5%,62.5%,87.5% {
+      -webkit-transform: translate(-10px);
+      transform: translate(-10px)
   }
 
-  25%,
-  50%,
-  75% {
-    -webkit-transform: translate(10px);
-    transform: translate(10px);
+  25%,50%,75% {
+      -webkit-transform: translate(10px);
+      transform: translate(10px)
   }
 }
 
 @keyframes shake {
-  0%,
-  to {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+  0%,to {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0)
   }
 
-  12.5%,
-  37.5%,
-  62.5%,
-  87.5% {
-    -webkit-transform: translate(-10px);
-    transform: translate(-10px);
+  12.5%,37.5%,62.5%,87.5% {
+      -webkit-transform: translate(-10px);
+      transform: translate(-10px)
   }
 
-  25%,
-  50%,
-  75% {
-    -webkit-transform: translate(10px);
-    transform: translate(10px);
+  25%,50%,75% {
+      -webkit-transform: translate(10px);
+      transform: translate(10px)
   }
 }
