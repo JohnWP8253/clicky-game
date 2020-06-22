@@ -46,12 +46,12 @@ class App extends Component {
           this.state.score > this.state.hiScore
             ? this.state.score
             : this.state.hiScore,
-        message: "There is a disturbance in the Force!",
+        message: "You died!",
       });
     }
     this.handleShuffleArray(stormtroopers);
   };
-  
+
   render() {
     return (
       <Wrapper>
