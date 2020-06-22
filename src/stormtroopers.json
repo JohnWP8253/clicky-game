@@ -16,19 +16,19 @@
     {
         "id": 3,
         "name": "First Order Flametrooper",
-        "image": "./images/First Order Flametrooper.png",
+        "image": "./images/First-Order-Flametrooper.png",
         "clicked": false
     },
     {
         "id": 4,
         "name": "First Order Snowtrooper",
-        "image": "./images/First Order Snowtrooper.png",
+        "image": "./images/First-Order-Snowtrooper.png",
         "clicked": false
     },
     {
         "id": 5,
         "name": "First Order Stormtrooper",
-        "image": "./images/First Order Stormtrooper.png",
+        "image": "./images/First-Order-Stormtrooper.png",
         "clicked": false
     },
     {
