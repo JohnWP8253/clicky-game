@@ -4,7 +4,7 @@
     {
         "id": 1,
         "name": "Clone Trooper Phase 1",
-        "image": "./images/Clone-Trooper-Phase-1.png",
+        "image": "../images/Clone-Trooper-Phase-1.png",
         "clicked": false
     },
     {
