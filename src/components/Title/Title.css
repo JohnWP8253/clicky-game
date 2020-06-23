@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Righteous&display=swap');
 
-.title {
-    background-image: url("../../../public/images/captain-phasma.jpg");
-    background-size: 100% auto;
-    color: #fff;
-    min-height: 400px;
-    padding: 180px 20px;
-    padding-bottom: 140px;
-    text-align: center;
-    border-bottom: 1px solid #fff;
-}
-
 .title h1 {
     margin: 0;
     margin-bottom: 30px;
